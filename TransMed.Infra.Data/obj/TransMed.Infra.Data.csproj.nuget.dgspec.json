@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Infra.Data\\TransMed.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Dominio\\TransMed.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Dominio\\TransMed.Dominio.csproj",
+        "projectName": "TransMed.Dominio",
+        "projectPath": "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Dominio\\TransMed.Dominio.csproj",
+        "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
+        "outputPath": "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alexd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Infra.Data\\TransMed.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Infra.Data\\TransMed.Infra.Data.csproj",
+        "projectName": "TransMed.Infra.Data",
+        "projectPath": "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Infra.Data\\TransMed.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
+        "outputPath": "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alexd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Dominio\\TransMed.Dominio.csproj": {
+                "projectPath": "D:\\U\\Arquitectura\\Arquiectura\\HexagonalTransMed\\Solution1\\TransMed.Dominio\\TransMed.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
