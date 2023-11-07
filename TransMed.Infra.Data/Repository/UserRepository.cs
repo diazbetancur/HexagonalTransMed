@@ -15,11 +15,13 @@ namespace TransMed.Infra.Data.Repository
 
         public UserRepository( UserContext userContext)
         {
-            db = userContext;
+            db = userContext; // Para poder ejecutar cambios en el repositorio
         }
         public User Add(User entity)
         {
-            throw new NotImplementedException();
+            entity.Id = Guid.NewGuid();
+            db.Users.Add(entity);
+            return entity;
         }
 
         public Guid Delete(Guid entityId)
